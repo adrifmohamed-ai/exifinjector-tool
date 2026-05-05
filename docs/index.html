@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXIF Injector - Edit Image Metadata Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📷 EXIF Injector</h1>
+            <p class="subtitle">View, Edit & Inject Image Metadata Online</p>
+        </header>
+
+        <main>
+            <section class="uploader-section">
+                <div class="upload-area" id="uploadArea">
+                    <svg class="upload-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    <h2>Drop image here or click to upload</h2>
+                    <p>Supported formats: JPG, PNG, TIFF, WebP</p>
+                    <input type="file" id="imageInput" accept="image/*" hidden>
+                </div>
+            </section>
+
+            <div id="editorContainer" class="hidden">
+                <section class="preview-section">
+                    <div class="image-preview">
+                        <img id="imagePreview" src="" alt="Preview">
+                    </div>
+                </section>
+
+                <section class="metadata-section">
+                    <div class="tabs">
+                        <button class="tab-btn active" data-tab="exif">EXIF</button>
+                        <button class="tab-btn" data-tab="iptc">IPTC</button>
+                        <button class="tab-btn" data-tab="xmp">XMP</button>
+                    </div>
+
+                    <div id="exif" class="tab-content active">
+                        <div class="metadata-info" id="exifInfo"></div>
+                        <div class="metadata-edit">
+                            <h3>Add/Edit EXIF Data</h3>
+                            <div class="form-group">
+                                <label for="exifMake">Camera Make:</label>
+                                <input type="text" id="exifMake" placeholder="e.g., Canon">
+                            </div>
+                            <div class="form-group">
+                                <label for="exifModel">Camera Model:</label>
+                                <input type="text" id="exifModel" placeholder="e.g., Canon EOS 5D">
+                            </div>
+                            <div class="form-group">
+                                <label for="exifSoftware">Software:</label>
+                                <input type="text" id="exifSoftware" placeholder="e.g., Lightroom">
+                            </div>
+                            <div class="form-group">
+                                <label for="exifDateTime">Date/Time:</label>
+                                <input type="datetime-local" id="exifDateTime">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="iptc" class="tab-content">
+                        <div class="metadata-info" id="iptcInfo"></div>
+                        <div class="metadata-edit">
+                            <h3>Add/Edit IPTC Data</h3>
+                            <div class="form-group">
+                                <label for="iptcKeywords">Keywords:</label>
+                                <input type="text" id="iptcKeywords" placeholder="e.g., sunset, beach, travel">
+                            </div>
+                            <div class="form-group">
+                                <label for="iptcCaption">Caption:</label>
+                                <textarea id="iptcCaption" placeholder="Image description"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="iptcCopyright">Copyright:</label>
+                                <input type="text" id="iptcCopyright" placeholder="© 2024 Your Name">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="xmp" class="tab-content">
+                        <div class="metadata-info" id="xmpInfo"></div>
+                        <div class="metadata-edit">
+                            <h3>Add/Edit XMP Data</h3>
+                            <div class="form-group">
+                                <label for="xmpCreator">Creator:</label>
+                                <input type="text" id="xmpCreator" placeholder="Your name">
+                            </div>
+                            <div class="form-group">
+                                <label for="xmpDescription">Description:</label>
+                                <textarea id="xmpDescription" placeholder="Image details"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="actions">
+                    <button id="removeMetadataBtn" class="btn btn-danger">🗑️ Remove All Metadata</button>
+                    <button id="downloadBtn" class="btn btn-primary">⬇️ Download Image</button>
+                    <button id="resetBtn" class="btn btn-secondary">↻ Upload New Image</button>
+                </section>
+            </div>
+
+            <section class="features">
+                <h2>Features</h2>
+                <ul>
+                    <li>✅ View EXIF, IPTC & XMP metadata</li>
+                    <li>✅ Edit existing metadata</li>
+                    <li>✅ Add new metadata tags</li>
+                    <li>✅ Remove sensitive GPS data</li>
+                    <li>✅ Download modified images</li>
+                    <li>✅ 100% secure - No data sent to server</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>EXIF Injector © 2024 | All processing happens locally on your device</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/piexifjs@0.0.1/piexif.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
