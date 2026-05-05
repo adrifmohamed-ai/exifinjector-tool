@@ -1,3 +1,5 @@
 site_name: EXIF Injector
 theme: material
 description: Comprehensive guide to EXIF metadata and image management
+baseurl: /exif-injector/
+url: https://toncompte.github.io/exif-injector/
