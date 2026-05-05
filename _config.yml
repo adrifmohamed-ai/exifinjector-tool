@@ -1,8 +1,8 @@
-site_name: EXIF Injector
-theme: material
+title: EXIF Injector
 description: Comprehensive guide to EXIF metadata and image management
 baseurl: /exifinjector-tool/
 url: https://adrifmohamed-ai.github.io/exifinjector-tool/
+theme: jekyll-theme-minimal
 permalink: /:title/
 markdown: kramdown
 plugins:

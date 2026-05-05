@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # EXIF Metadata Guides
 
 Learn everything about EXIF, IPTC and XMP metadata.
