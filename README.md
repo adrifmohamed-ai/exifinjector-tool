@@ -65,3 +65,102 @@ ExifInjector is purpose-built for the platforms where metadata matters most:
 ---
 
 ## Repository Structure
+exif-injector/
+│
+├── README.md                       ← You are here
+├── about.md                        ← About ExifInjector
+│
+├── guides/
+│   ├── what-is-exif.md             ← EXIF metadata explained
+│   ├── exif-seo.md                 ← Using metadata for SEO
+│   ├── remove-exif-data.md         ← How to strip metadata
+│   ├── edit-exif-metadata.md       ← Editing metadata fields
+│   └── gps-metadata-privacy.md     ← GPS data & privacy risks
+│
+├── tools/
+│   ├── exif-reader.md              ← EXIF Viewer documentation
+│   ├── exif-editor.md              ← EXIF Editor documentation
+│   └── exif-remover.md             ← EXIF Remover documentation
+│
+├── tutorials/
+│   ├── add-metadata-to-images.md   ← Step-by-step metadata injection
+│   ├── optimize-images-for-seo.md  ← Full SEO image workflow
+│   └── clean-image-metadata.md     ← Privacy cleaning workflow
+│
+├── blog/
+│   ├── best-exif-tools-2026.md     ← Top EXIF tools compared
+│   └── exif-vs-xmp-vs-iptc.md      ← Metadata standards explained
+│
+└── assets/
+└── images/                     ← Screenshots & visuals
+
+---
+
+## Why Metadata Matters
+
+Over **90% of websites ignore image metadata** — and lose valuable search traffic as a result.
+Google's image search algorithm reads EXIF, IPTC, and XMP fields to understand what an image 
+shows, where it was taken, and who created it.
+
+Properly optimized image metadata can:
+- Increase Google Images CTR by up to **35%**
+- Improve local SEO rankings when GPS data is accurate
+- Protect intellectual property through embedded copyright info
+- Reduce copyright disputes with proper IPTC attribution fields
+- Boost e-commerce conversion through richer product image context
+
+---
+
+## Privacy & Security
+
+All metadata processing in ExifInjector happens **entirely in your browser** using the Web File 
+API. Your images are never uploaded to any server. This means:
+
+- ✅ Zero data transmission to external servers
+- ✅ Works offline once the page is loaded
+- ✅ GDPR compliant by design
+- ✅ No account required for basic tools
+
+---
+
+## Available Languages
+
+| Language | Homepage |
+|----------|----------|
+| 🇺🇸 English | [exifinjector.com/en](https://exifinjector.com/en) |
+| 🇫🇷 Français | [exifinjector.com/fr](https://exifinjector.com/fr) |
+
+---
+
+## Follow ExifInjector
+
+Stay up to date with tutorials, SEO tips, and product updates:
+
+- 🐦 [Twitter / X](https://x.com/exif_injector)
+- 💼 [LinkedIn](https://www.linkedin.com/company/exif-injector/)
+- 📸 [Instagram](https://www.instagram.com/exifinjector/)
+- 🧵 [Threads](https://www.threads.com/@exifinjector)
+- 📘 [Facebook](https://www.facebook.com/exif.injector/)
+- 🦋 [Bluesky](https://bsky.app/profile/exif-injector.bsky.social)
+- 📺 [YouTube](https://www.youtube.com/@ExifInjector)
+
+---
+
+## Comparisons & Alternatives
+
+- [ExifInjector vs ExifTool](https://exifinjector.com/exiftool-alternative)
+- [ExifInjector vs TinyPNG](https://exifinjector.com/tinypng-alternative)
+- [ExifInjector vs Lightroom Metadata](https://exifinjector.com/lightroom-metadata-alternative)
+- [Online Photoshop EXIF Editor](https://exifinjector.com/photoshop-exif-editor-online)
+
+---
+
+## License
+
+Documentation in this repository is published under the [MIT License](LICENSE).
+Tool usage is subject to ExifInjector's [Terms of Service](https://exifinjector.com/en/terms) 
+and [Privacy Policy](https://exifinjector.com/en/privacy).
+
+---
+
+*Built with ❤️ for photographers, SEO professionals, and e-commerce sellers worldwide.*
