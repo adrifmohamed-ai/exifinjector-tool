@@ -15,9 +15,7 @@
 
 ## What is ExifInjector?
 
-**ExifInjector** is a professional, browser-based image metadata platform that gives photographers, 
-e-commerce sellers, SEO specialists, and content creators full control over the hidden data 
-embedded in their images.
+**ExifInjector** is a professional, browser-based image metadata platform that gives photographers, e-commerce sellers, SEO specialists, and content creators full control over the hidden data embedded in their images.
 
 Whether you need to:
 - **Add GPS coordinates** to images for local SEO
@@ -65,9 +63,11 @@ ExifInjector is purpose-built for the platforms where metadata matters most:
 ---
 
 ## Repository Structure
+
+```
 exif-injector/
 │
-├── README.md                       ← You are here
+├── index.md                        ← You are here
 ├── about.md                        ← About ExifInjector
 │
 ├── guides/
@@ -92,15 +92,14 @@ exif-injector/
 │   └── exif-vs-xmp-vs-iptc.md      ← Metadata standards explained
 │
 └── assets/
-└── images/                     ← Screenshots & visuals
+    └── images/                     ← Screenshots & visuals
+```
 
 ---
 
 ## Why Metadata Matters
 
-Over **90% of websites ignore image metadata** — and lose valuable search traffic as a result.
-Google's image search algorithm reads EXIF, IPTC, and XMP fields to understand what an image 
-shows, where it was taken, and who created it.
+Over **90% of websites ignore image metadata** — and lose valuable search traffic as a result. Google's image search algorithm reads EXIF, IPTC, and XMP fields to understand what an image shows, where it was taken, and who created it.
 
 Properly optimized image metadata can:
 - Increase Google Images CTR by up to **35%**
@@ -113,8 +112,7 @@ Properly optimized image metadata can:
 
 ## Privacy & Security
 
-All metadata processing in ExifInjector happens **entirely in your browser** using the Web File 
-API. Your images are never uploaded to any server. This means:
+All metadata processing in ExifInjector happens **entirely in your browser** using the Web File API. Your images are never uploaded to any server. This means:
 
 - ✅ Zero data transmission to external servers
 - ✅ Works offline once the page is loaded
@@ -148,18 +146,16 @@ Stay up to date with tutorials, SEO tips, and product updates:
 
 ## Comparisons & Alternatives
 
-- [ExifInjector vs ExifTool](https://exifinjector.com/exiftool-alternative)
-- [ExifInjector vs TinyPNG](https://exifinjector.com/tinypng-alternative)
-- [ExifInjector vs Lightroom Metadata](https://exifinjector.com/lightroom-metadata-alternative)
-- [Online Photoshop EXIF Editor](https://exifinjector.com/photoshop-exif-editor-online)
+- [ExifInjector vs ExifTool](https://exifinjector.com/exiftool-alternative) — Why choose a browser-based solution?
+- [ExifInjector vs TinyPNG](https://exifinjector.com/tinypng-alternative) — Compression with metadata control
+- [ExifInjector vs Lightroom Metadata](https://exifinjector.com/lightroom-metadata-alternative) — No subscription required
+- [Online Photoshop EXIF Editor](https://exifinjector.com/photoshop-exif-editor-online) — Without Adobe CC
 
 ---
 
 ## License
 
-Documentation in this repository is published under the [MIT License](LICENSE).
-Tool usage is subject to ExifInjector's [Terms of Service](https://exifinjector.com/en/terms) 
-and [Privacy Policy](https://exifinjector.com/en/privacy).
+Documentation in this repository is published under the [MIT License](LICENSE). Tool usage is subject to ExifInjector's [Terms of Service](https://exifinjector.com/en/terms) and [Privacy Policy](https://exifinjector.com/en/privacy).
 
 ---
 
