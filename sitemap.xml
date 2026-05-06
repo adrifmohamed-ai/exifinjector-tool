@@ -9,75 +9,90 @@ sitemap: false
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/about/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/guides/what-is-exif/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/guides/exif-seo/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/guides/remove-exif-data/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/guides/edit-exif-metadata/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/guides/gps-metadata-privacy/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tools/exif-reader/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tools/exif-editor/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tools/exif-remover/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tutorials/add-metadata-to-images/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tutorials/clean-image-metadata/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/tutorials/optimize-images-for-seo/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/blog/best-exif-tools-2026/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
   <url>
     <loc>https://adrifmohamed-ai.github.io/exifinjector-tool/blog/exif-vs-xmp-vs-iptc/</loc>
     <lastmod>2026-05-06</lastmod>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
