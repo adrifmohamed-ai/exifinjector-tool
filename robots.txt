@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adrifmohamed-ai.github.io/exifinjector-tool/sitemap.xml
