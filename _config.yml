@@ -2,6 +2,7 @@ title: EXIF Injector
 description: Comprehensive guide to EXIF metadata and image management
 baseurl: /exifinjector-tool/
 url: https://adrifmohamed-ai.github.io/exifinjector-tool/
+google_site_verification: google34724c37b8f858aa
 theme: jekyll-theme-minimal
 permalink: /:title/
 markdown: kramdown
