@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
+# Sitemap for Google Search Console
 Sitemap: https://adrifmohamed-ai.github.io/exifinjector-tool/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
