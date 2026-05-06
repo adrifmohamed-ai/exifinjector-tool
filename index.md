@@ -48,6 +48,38 @@ Whether you need to:
 
 ---
 
+## 📚 Explore Our Resources
+
+### [📖 Guides](guides/)
+Learn the fundamentals of EXIF metadata and best practices:
+- [What is EXIF?](guides/what-is-exif.md) — Understanding image metadata standards
+- [EXIF for SEO](guides/exif-seo.md) — Boost your image search rankings
+- [Remove EXIF Data](guides/remove-exif-data.md) — Protect your privacy
+- [Edit EXIF Metadata](guides/edit-exif-metadata.md) — Complete editing guide
+- [GPS Metadata & Privacy](guides/gps-metadata-privacy.md) — Location data risks
+
+### [🛠️ Tools Documentation](tools/)
+Detailed guides for each tool:
+- [EXIF Reader](tools/exif-reader.md) — View all image metadata
+- [EXIF Editor](tools/exif-editor.md) — Modify metadata fields
+- [EXIF Remover](tools/exif-remover.md) — Strip metadata completely
+
+### [🎓 Tutorials](tutorials/)
+Step-by-step workflows for common tasks:
+- [Add Metadata to Images](tutorials/add-metadata-to-images.md) — Inject EXIF data
+- [Optimize Images for SEO](tutorials/optimize-images-for-seo.md) — Full SEO workflow
+- [Clean Image Metadata](tutorials/clean-image-metadata.md) — Privacy cleaning guide
+
+### [📰 Blog](blog/)
+Latest articles and insights:
+- [Best EXIF Tools 2026](blog/best-exif-tools-2026.md) — Tool comparison
+- [EXIF vs XMP vs IPTC](blog/exif-vs-xmp-vs-iptc.md) — Metadata standards explained
+
+### [ℹ️ About](about.md)
+Learn more about ExifInjector and our mission.
+
+---
+
 ## Platform Integrations
 
 ExifInjector is purpose-built for the platforms where metadata matters most:
